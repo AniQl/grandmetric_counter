@@ -31,12 +31,9 @@ class User(Resource):
     def get(self, user_id):
         id = user_id
         if 0 < id < number_of_users:
-            if id < number_of_users:
-                y = json.dumps(users.get(id))
-                loaded_y = json.loads(y)
-                return loaded_y, 200
-            else:
-                return "Nie znaleziono uzytkownika", 404
+            string_to_json = json.dumps(users.get(id))
+            loaded_string_to_json = json.loads(string_to_json)
+            return loaded_string_to_json, 200
         else:
             return "Musisz wpisac liczbe od 1 do 65535", 422
 
