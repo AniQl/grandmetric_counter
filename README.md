@@ -14,8 +14,14 @@ pip install -r requirements.txt</p>
 </li>
 <li>
 <p>Uruchom serwer z folderu grandmetric_counter:<br>
-python3 <a href="http://main.py">main.py</a></p>
+python3 main.py</p>
+<li>
+<p>Wejdź na:<br>
+python3 <a href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a></p>
+</li>
 </li>
 </ol>
 <p>Usługa została również wdrożona w chmurze publicznej używając Google Cloud Platform. Można ją zobaczyć na:<br>
 <a href="http://grandmetric-counter.appspot.com/">http://grandmetric-counter.appspot.com/</a></p>
+
+http://127.0.0.1:5000/
