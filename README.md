@@ -27,8 +27,8 @@ python3 main.py</p>
 
 
 <p><b>Instrukcja obsługi:</b><p>
-<p>/user/user_id - zwraca dokument JSON z wartością po inkrementacji licznika per user np: {"user_id": 1, "counter": 2} (user_id wartości 1-65535)</p>
+<p><i>/user/user_id</i> - zwraca dokument JSON z wartością po inkrementacji licznika per user np: {"user_id": 1, "counter": 2} (user_id wartości 1-65535)</p>
 
-<p>/user/user_id/counter - inkrementuje licznik danego "user_id" o jeden.</p>
+<p><i>/user/user_id/counter</i> - inkrementuje licznik danego "user_id" o jeden.</p>
 
-<p>/reset - resetuje licznik każdego "user_id"</p>
+<p><i>/reset</i> - resetuje licznik każdego "user_id"</p>
