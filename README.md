@@ -27,7 +27,7 @@ python3 main.py</p>
 
 
 <p><b>Instrukcja obsługi:</b><p>
-<p>/user/user_id - wyświetla user_id z wraz z licznikiem "counter". (user_id wartości 1-65535)</p>
+<p>/user/user_id - zwraca dokument JSON z wartością po inkrementacji licznika per user np: {"user_id": 1, "counter": 2} (user_id wartości 1-65535)</p>
 
 <p>/user/user_id/counter - inkrementuje licznik danego "user_id" o jeden.</p>
 
