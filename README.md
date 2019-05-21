@@ -24,3 +24,11 @@ python3 main.py</p>
 <p><b>Dodatkowo:</b></p>
 <p>Usługa została również wdrożona w chmurze publicznej używając Google Cloud Platform. Można ją zobaczyć na:<br>
 <a href="http://grandmetric-counter.appspot.com/">http://grandmetric-counter.appspot.com/</a></p>
+
+
+Instrukcja obsługi:
+/user/user_id - wyświetla user_id z wraz z licznikiem "counter". (user_id wartości 1-65535)
+
+/user/user_id/counter - inkrementuje licznik danego "user_id" o jeden.
+
+/reset - resetuje licznik każdego "user_id"
