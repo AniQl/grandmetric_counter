@@ -26,9 +26,9 @@ python3 main.py</p>
 <a href="http://grandmetric-counter.appspot.com/">http://grandmetric-counter.appspot.com/</a></p>
 
 
-Instrukcja obsługi:
-/user/user_id - wyświetla user_id z wraz z licznikiem "counter". (user_id wartości 1-65535)
+<p><b>Instrukcja obsługi:</b><p>
+<p>/user/user_id - wyświetla user_id z wraz z licznikiem "counter". (user_id wartości 1-65535)</p>
 
-/user/user_id/counter - inkrementuje licznik danego "user_id" o jeden.
+<p>/user/user_id/counter - inkrementuje licznik danego "user_id" o jeden.</p>
 
-/reset - resetuje licznik każdego "user_id"
+<p>/reset - resetuje licznik każdego "user_id"</p>
