@@ -13,7 +13,7 @@ limiter = Limiter(
     default_limits=["5 per second"],
 )
 
-number_of_users = 65535
+number_of_users = 65536
 users = {}
 
 #pętla generująca słownik z 1-number_of_users uzytkowników (user_id)
